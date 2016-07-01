@@ -501,6 +501,15 @@ files. The unique file name is returned as a string.
     >>> targetName = w.save()
     >>> assert("shapefile_" in targetName)
 
+### File character encoding
+
+The file is encoded in utf-8 as default. You can specify a custom character encoding
+which is usefull in dealing with non-ascii characters. This is done by setting the
+parameter saveEncoding.
+
+    >>> w.save('shapefiles/test/line', saveEncoding='cp1252')
+
+
 ### Saving to File-Like Objects
 
 Just as you can read shapefiles from python file-like objects you can also
