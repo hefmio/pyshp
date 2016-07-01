@@ -8,7 +8,7 @@ Compatible with Python versions 2.4-3.x
 version changelog: Reader.iterShapeRecords() bugfix for Python 3
 """
 
-__version__ = "1.2.3"
+__version__ = "1.2.4"
 
 from struct import pack, unpack, calcsize, error
 import os
