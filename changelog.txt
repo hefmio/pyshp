@@ -1,3 +1,15 @@
+VERSION 1.2.4
+
+	*shapefile.py (main) Changed __version__ attribute.
+	
+	*shapefile.py (save) Added parameter saveEncoding and code to set global character encoding on save.
+	
+	*shapefile.py (b) Changed from utf-8 encoding to userdefined encoding 
+	
+	*shapefile.py (c) Changed from utf-8 encoding to userdefined encoding 
+	
+	*setup.py Changed __version__ attribute.
+
 VERSION 1.2.2
 
 ### upcoming (2015/01/09 05:27 +00:00)
